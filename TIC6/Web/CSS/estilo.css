@@ -1,0 +1,12 @@
+body{background-color:#AA6C39;}
+h2{
+font-family: arial;
+font-size: 45px;
+color:white;
+}
+#ele{
+windh: 280px;
+height: 230px;
+border-radius: 70%;
+border: 2px solid #C21EC2;
+}
