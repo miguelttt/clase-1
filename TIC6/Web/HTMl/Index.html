@@ -3,8 +3,37 @@
 <meta charset="UTF -8">
 <link rel="stylesheet" href="../CSS/estilo.css">
 <title> Pagina </title>
+<link rel="stylesheet" href="../CSS/estiloMenu.css">
+
 </head>
 <body>
+<nav class="navbar">
+        <div class="menu-left">
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">About</a>
+        </div>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div class="menu-right">
+            <a href="#" class="cta-button">Contact Us</a>
+            <div class="hamburger" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    <div id="mobileMenu" class="mobile-menu">
+        <a href="#" class="closebtn" onclick="toggleMobileMenu()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">About</a>
+        <a href="#" class="cta-button">Contact Us</a>
+    </div>
+
+    <script2 src="script.js"></script>
 <h1>  TEMA PRINCIPAL  </h1>
 <h2> Las matemáticas y la humanidad </h2>
 <h3> subtema </h3>
@@ -15,7 +44,7 @@
 <br>
 <img src=" ../IMAGENES/peon.jfif"width="600" height="600" >
 <img id="ele" src="../IMAGENES/dos.jfif">
-<table border="1">
+<table id="tabla1" border="1">
 <thead>
 <tr>
 <th>Nombre</th>
@@ -40,6 +69,24 @@
 <td>17</td>
 <td><img src=" ../IMAGENES/peon.jfif"width="600" height="600" ></td>
 </tr>
+</table>
+<br>
+<table border="1">
+<thead>
+<tr>
+<th> FOTO </th>
+<th> descripcion </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="2"> img1 </td>
+<td> descrp1 </td>
+</tr>
+<tr>
+<td> descrp2 </td>
+</tr>
+</tbody>
 </table>
 </body>
 </html>
