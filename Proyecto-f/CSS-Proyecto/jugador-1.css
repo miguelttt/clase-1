@@ -1,0 +1,64 @@
+body{background-color:#353636;
+}
+h2{
+font-family: serif;
+font-size: 22px;
+color:rgb(211, 95, 42);
+}
+h4,h3{
+font-family:  serif;
+font-size: 15px;
+color: rgb(139, 181, 201);
+}
+h4,h3, h2, p{
+text-align:center;
+}
+
+img{
+display: block;
+margin: 0 auto;
+}
+#a:hover {
+box-shadow: 0 0 2px 1px rgb(0, 255, 0);
+transform: scale(1.5);
+}
+#ale:hover {
+box-shadow: 0 0 2px 1px rgb(0, 255, 0);
+transform: scale(1.5);
+}
+button{
+display: block;
+margin: 0 auto;
+color:brown;
+background-color: red;
+padding: 15px 32px
+}
+#ele:hover {
+box-shadow: 0 0 2px 1px blue;
+transform: scale(1.5);
+}
+button:hover{
+background-color:blue;
+}
+#tabla1 tr:hover {
+background-color: rgb(151, 39, 39);
+}
+#tabla2 tr:hover {
+background-color: rgb(151, 39, 39);
+}
+#tabla1 {
+    margin:0 auto;
+}
+#tabla1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+#tabla2 {
+    margin:0 auto;
+}
+#tabla2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
